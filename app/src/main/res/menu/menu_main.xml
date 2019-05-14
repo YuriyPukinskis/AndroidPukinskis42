@@ -1,0 +1,48 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context="com.netodologia.myapplication.MainActivity">
+
+  <item
+      android:id="@+id/action_settings"
+      android:orderInCategory="100"
+      android:title="Settings"
+      app:showAsAction="never" />
+  	
+   <item
+      android:id="@+id/action_open_notes"
+      android:orderInCategory="100"
+      android:title="Записная книжка"
+      app:showAsAction="never" />
+   <item
+      android:id="@+id/action_tasks"
+      android:orderInCategory="100"
+      android:title="Сроки Задачи"
+      app:showAsAction="never" />
+   <item
+      android:id="@+id/action_streets"
+      android:orderInCategory="100"
+      android:title="Страны Города Улицы"
+      app:showAsAction="never" />
+   <item
+      android:id="@+id/action_check_box"
+      android:orderInCategory="100"
+      android:title="CheckBox"
+      app:showAsAction="never" />
+   <item
+      android:id="@+id/action_endless"
+      android:orderInCategory="100"
+      android:title="Бесконечный переход"
+      app:showAsAction="never" />
+   <item
+      android:id="@+id/action_form"
+      android:orderInCategory="100"
+      android:title="Универсальная Форма"
+      app:showAsAction="never" />
+      <item
+      android:id="@+id/exit"
+      android:orderInCategory="100"
+      android:title="Выход"
+      app:showAsAction="never" /> 
+         
+</menu>
